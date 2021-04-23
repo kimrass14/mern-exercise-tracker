@@ -8,6 +8,8 @@ import CreateExercise from './Components/CreateExercise';
 import CreateUser from './Components/CreateUser';
 
 const App = () => {
+  
+
   return (
     <>
       <div className="container">
