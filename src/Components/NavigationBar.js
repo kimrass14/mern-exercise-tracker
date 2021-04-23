@@ -9,6 +9,7 @@ const NavigationBar = () => {
         activeKey="/home"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
+            <h2>Exercise Tracker</h2>
             <Nav.Item>
                 <Nav.Link><Link to='/'>Exercises</Link></Nav.Link>
             </Nav.Item>

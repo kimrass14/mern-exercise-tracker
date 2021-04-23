@@ -10,12 +10,13 @@ import CreateUser from './Components/CreateUser';
 const App = () => {
   return (
     <>
-    <h1>My exercise tracker</h1>
-      <NavigationBar />
-      <Route path='/' exact component={ExercisesList} />
-      <Route path='/edit/:id' component={EditExercise} />
-      <Route path='/create' component={CreateExercise} />
-      <Route path='/user' component={CreateUser} />
+      <div className="container">
+        <NavigationBar />
+        <Route path='/' exact component={ExercisesList} />
+        <Route path='/edit/:id' component={EditExercise} />
+        <Route path='/create' component={CreateExercise} />
+        <Route path='/user' component={CreateUser} />
+      </div>
     </>
   );
 }
